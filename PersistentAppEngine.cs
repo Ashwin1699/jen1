@@ -30,7 +30,7 @@ namespace Casestudyyy
                 cmd.Parameters.AddWithValue("@sID", student.sID);
                 cmd.Parameters.AddWithValue("@sName", student.sName);
                 cmd.Parameters.AddWithValue("@sDOB", student.sDOB);
-                cmd.Parameters.AddWithValue("@sPhone", student.sphoneNo);
+                cmd.Parameters.AddWithValue("@sPhone", student.sphone);
                 int i = cmd.ExecuteNonQuery(); // returns int
                 Console.WriteLine("No of Rows Affected:{0}", i);
                 cmd.Parameters.Clear();

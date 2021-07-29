@@ -20,6 +20,9 @@ namespace CaseStudy1
             this.sphone = sPhone;
         }
 
+        public Student()
+        {
+        }
     }
     class Course
     {
